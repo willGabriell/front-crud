@@ -9,3 +9,41 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  thead th {
+    background-color: #130e09; 
+    color: white; 
+    padding: 12px;
+    border-bottom: 2px solid #ddd; 
+  }
+  
+  tbody tr {
+    background-color: #f9f9f9; 
+    border-bottom: 1px solid #ddd; 
+    transition: background-color 0.3s; 
+  }
+  
+  th, td {
+    padding: 12px; 
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  tbody td {
+    color: #333;
+  }
+  
+  

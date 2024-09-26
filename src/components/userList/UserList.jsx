@@ -17,11 +17,22 @@ function UserList() {
     return(
         <div id='UserList'>
             <h2>Usuários Cadastrados</h2>
-            <ul>
-                {users.map(user => (
-                    <li key={user.id}>{user.name} | {user.email}</li>
-                ))}
-            </ul>
+            <table>
+              <thead>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Email</th>
+              </thead>
+              
+              {users.map(user => (
+                <tr key={user.id}>
+                  <th>{user.id}</th>
+                  <th>{user.name}</th>
+                  <th>{user.email}</th>
+                </tr>
+              ))}
+              
+            </table>
         </div>
     );
 }
