@@ -1,4 +1,3 @@
-import UserList from './components/userList/UserList'
 import './App.css'
 
 function App() {
@@ -6,7 +5,7 @@ function App() {
 
   return (
     <>
-      <UserList />
+      <p>Tela inicial</p>
     </>
   )
 }
