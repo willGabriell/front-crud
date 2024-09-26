@@ -1,11 +1,10 @@
 import './App.css'
+import UserForm from './components/userForm/UserForm'
 
 function App() {
-
-
   return (
     <>
-      <p>Tela inicial</p>
+      <UserForm />
     </>
   )
 }
